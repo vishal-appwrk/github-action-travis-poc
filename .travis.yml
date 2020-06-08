@@ -28,6 +28,7 @@ deploy:
     skip_cleanup: true
     local_dir: build
     upload-dir: fusioncharts/fc-licensing
+    region: eu-central-1
     on:
       branch: master
 after_deploy: "echo 'I done with the deploy to S3 Bucket. Please check the Logs'"
