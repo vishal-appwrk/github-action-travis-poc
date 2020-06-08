@@ -16,6 +16,7 @@ cache:
   #- npm install -g gulp-cli
 #script:
  # - npm test
+ 
  # - npm run build
 
   # Added the test comment on develop branch
@@ -27,7 +28,7 @@ deploy:
     bucket: "cdn.fusioncharts.com"
     skip_cleanup: true
     local_dir: build
-    upload-dir: fusioncharts/fc-licensing
+    #upload-dir: fusioncharts/fc-licensing
     region: eu-central-1
     on:
       branch: master
