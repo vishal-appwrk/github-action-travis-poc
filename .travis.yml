@@ -2,7 +2,8 @@ language: node_js
 node_js:
     - "stable"
 before_script:
-    - npm install 
+    # - npm install 
+    - git submodule update --init --recursive
 script:
     - npm run build  
 # safelist

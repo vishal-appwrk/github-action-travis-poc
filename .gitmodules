@@ -1,0 +1,9 @@
+[submodule "_internal/vendors/xt-themes"]
+	path = _internal/vendors/xt-themes
+	url = https://github.com/IderaInc/xt-themes
+[submodule "_internal/vendors/xt-maps"]
+	path = _internal/vendors/xt-maps
+	url = https://github.com/fusioncharts/bouquet.git
+[submodule "_internal/vendors/bouquet-private"]
+	path = _internal/vendors/bouquet-private
+	url = https://github.com/IderaInc/bouquet-private.git
