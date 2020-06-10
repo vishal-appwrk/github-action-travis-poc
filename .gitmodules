@@ -7,3 +7,6 @@
 [submodule "_internal/vendors/bouquet-private"]
 	path = _internal/vendors/bouquet-private
 	url = https://github.com/IderaInc/bouquet-private.git
+[submodule "packages/fc-core/src/_internal/vendors/faberjs"]
+	path = packages/fc-core/src/_internal/vendors/faberjs
+	url = https://github.com/fusioncharts/faberjs.git
