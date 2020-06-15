@@ -2,4 +2,4 @@
 
 ## FusionCharts - POC - Travis CI/CD
 
-Sample React APP to test the Travis CI/CD
+Sample  APP to test the Travis CI/CD
