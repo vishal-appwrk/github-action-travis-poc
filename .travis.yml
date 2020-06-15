@@ -20,6 +20,7 @@ before_deploy:
    - "echo 'I am ready to deploy to S3 Bucket'"
    - "echo 'Access Key $access_key_id'"
    - "echo 'branch name $CURRENT_BRANCH'"
+   - "echo 'foo' $foo"
 deploy:
     provider: s3
     access_key_id: $access_key_id
