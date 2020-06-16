@@ -28,8 +28,9 @@ deploy:
     bucket: "cdn.fusioncharts.com"
     skip_cleanup: true
     local_dir: build
-    upload-dir: fusioncharts/fc-licensing
+    upload-dir: fusioncharts/fc-testdevelop
     region: eu-central-1
+    acl: public_read
     on:
       branch: master
 after_deploy: "echo 'I done with the deploy to S3 Bucket. Please check the Logs'"
