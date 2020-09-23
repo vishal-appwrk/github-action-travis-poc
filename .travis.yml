@@ -30,7 +30,7 @@ deploy:
     local_dir: build
     upload-dir: fusioncharts/assembla_travis_poc
     region: eu-central-1
-    acl: public_read
+    # acl: public_read
     on:
       branch: master
 after_deploy: "echo 'I done with the deploy to S3 Bucket. Please check the Logs'"
