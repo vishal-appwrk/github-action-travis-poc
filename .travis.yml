@@ -28,7 +28,7 @@ deploy:
     bucket: "cdn.fusioncharts.com"
     skip_cleanup: true
     local_dir: build
-    upload-dir: fusioncharts/fc-testdevelop
+    upload-dir: fusioncharts/assembla_travis_poc
     region: eu-central-1
     acl: public_read
     on:
